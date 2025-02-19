@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Currículo */
+
+.curriculo-main
+{
+    padding: 6% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.nome
+{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.nome .icone
+{
+    width: 10%;
+    border-radius: 80px;
+}
+
+.nome .title
+{
+    font-family: var(--font-primaria);
+    font-weight: 300;
+    font-size: 1.87rem;
+}
+
+.topico h3
+{
+    font-family: var(--font-primaria);
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-bottom: 2%;
+    color: var(--terciaria);
+}
+
+.topico h4
+{
+    margin-top: 2%;
+    font-family: var(--font-primaria);
+    font-size: 1.18rem;
+    font-weight: 200;
+    padding-bottom: 1%;
+    color: var(--terciaria);
+}
+
+.list
+{
+    padding-left: 2%;
+    font-family: var(--font-secundaria);
+    font-size: 1.1rem;
+}
+
+.list .item:hover
+{
+    color: var(--terciaria);
+}
+
+.sobre-mim h3
+{
+    font-family: var(--font-primaria);
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-bottom: 2%;
+    color: var(--terciaria);
+}
+
+.sobre-mim p
+{
+    font-family: var(--font-secundaria);
+    font-size: 1.1rem;
+}
+
+.sobre-mim strong
+{
+    color: var(--terciaria);
+}
+
+.redes h3
+{
+    font-family: var(--font-primaria);
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-bottom: 2%;
+    color: var(--terciaria);
+}
+
+.redes .botoes-redes
+{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.redes .botao-rede
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    border: 1px solid var(--terciaria);
+    color:  var(--secundaria);
+    padding: 13px 5px;
+    width: 70%;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: var(--font-secundaria);
+}
+
+.redes .botao-rede:hover
+{
+    border-color: var(--secundaria);
+}
+
+/*Responsividade*/
+
+@media (max-width: 800px)
+{
+    .nome .icone
+    {
+        width: 40%;
+    }
+
+    .redes .botoes-redes
+    {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Sobre mim*/
+
+.about
+{
+    padding: 6% 15%;
+    display: flex;
+    gap: 40px;
+}
+
+.about-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-text h1
+{
+    font-size: 1.5rem;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+}
+
+.about-text p
+{
+    font-family: var(--font-secundaria);
+    font-size: 1.1rem;
+}
+
+.about-img
+{
+    width: 50%;   
+    border-radius: 8px;
+}
+
+/*Responsividade*/
+
+@media (max-width: 800px)
+{
+    .about
+    {
+        flex-direction: column-reverse;
+    }
+
+    .about-img
+    {
+        width: 100%;
+    }
+}
