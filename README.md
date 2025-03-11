@@ -16,6 +16,9 @@
 Este projeto foi feito junto com as aulas da formação front-end da Alura.
 Consiste em três paginas: Home, Sobre mim e Curríulo. Os textos da página são meramente ilustrativos por enquanto.
 
+##### Acesso:
+ https://brunocb-cs.github.io/potifolio-alura-aula-/
+
 ### 2 - Status do Projeto
 
 Ele foi concluído, porém vai ser atualizada ao decorrer do tempo.
